@@ -16,6 +16,7 @@ export class TelegramBotService implements BotServiceInterface {
 
     private readonly _photoCommand: string = '/photo';
     private readonly _videoCommand: string = '/video';
+    private readonly _timelapseCommand: string = '/timelapse';
 
     constructor(
         @inject(diConstants.ConfigInterface)
@@ -53,6 +54,8 @@ export class TelegramBotService implements BotServiceInterface {
                     command = ECommand.PHOTO;
                 } else if (msg.text === this._videoCommand) {
                     command = ECommand.VIDEO;
+                } else if (msg.text === this._timelapseCommand) {
+                    command = ECommand.TIMELAPSE;
                 } else {
                     command = ECommand.UNKNOWN;
                 }

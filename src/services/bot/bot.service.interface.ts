@@ -12,7 +12,8 @@ export enum ECommand {
     PHOTO = 'PHOTO',
     VIDEO = 'VIDEO',
     UNKNOWN = 'UNKNOWN',
-    NOT_ALLOWED = 'NOT_ALLOWED'
+    NOT_ALLOWED = 'NOT_ALLOWED',
+    TIMELAPSE = 'TIMELAPSE',
 }
 
 export interface BotServiceInterface {
