@@ -34,8 +34,8 @@
   "dependencies": {
     "config": "^3.3.1",
     "dotenv": "^8.2.0",
-    "node-raspistill": "^1.0.1",
-    "node-raspivideo": "^1.0.1",
+    "node-raspistill": "^2.0.0",
+    "node-raspivideo": "^2.0.0",
     "node-telegram-bot-api": "^0.50.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.0",
